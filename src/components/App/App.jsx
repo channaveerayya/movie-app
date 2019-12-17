@@ -10,12 +10,12 @@ import Footer from '../elements/Footer/Footer'
 import  './App.scss';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/movie-app/">
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/movie-app" component={Home} />
-          <Route exact path="/movie-app/:movieId" component={Movie} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/:movieId" component={Movie} />
           <Route component={NotFound} />
         </Switch>
         <Footer />
