@@ -1,0 +1,36 @@
+@import "../../../styles/abstracts/mixins";
+
+
+.LandingPage {
+    height: 60vh;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 41vh, 0 100%);
+
+    @include respond(phone) {
+        clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
+    }
+
+    &__logo-box {
+        position: absolute;
+        top: 0rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 17rem;
+        animation: moveInUp 5s ease-out;
+    }
+
+
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+
+}

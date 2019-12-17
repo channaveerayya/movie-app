@@ -1,0 +1,138 @@
+.movieinfo {
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    animation: animateMovieinfo 1s;
+
+    &-content {
+        max-width: 1280px;
+        min-height: 450px;
+        margin: 0 auto;
+        background: #000000b3;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    &-thumb {
+        width: 300px;
+        float: left;
+    }
+
+    &-text {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 40px;
+        color: #fff;
+        overflow: hidden;
+    }
+
+    &-text h1 {
+        font-family: 'Abel', sans-serif;
+        font-size: 48px;
+        margin: 0;
+    }
+
+    &-text h3 {
+        font-size: 16px;
+        line-height: 0;
+        margin-top: 30px;
+    }
+
+    &-text p {
+        font-family: 'Abel', sans-serif;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .thumb img {
+        width: 100%;
+        height: auto;
+        transition: all 0.3s;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .rating {
+        width: 190px;
+        height: 20px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .score {
+        position: absolute;
+        margin: 0;
+        right: 0px;
+        top: -3px;
+    }
+
+    .director {
+        margin: 0;
+    }
+
+    .fa-film {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        color: #fff;
+    }
+
+
+    meter::-webkit-meter-bar {
+        background: #fff;
+        width: 150px;
+    }
+
+    meter::-webkit-meter-optimum-value {
+        background: linear-gradient(to bottom, #16d47b) !important;
+    }
+
+    meter::-webkit-meter-suboptimum-value {
+        background: linear-gradient(to bottom, #fbb450) !important;
+    }
+
+    meter::-webkit-meter-even-less-good-value {
+        background: linear-gradient(to bottom, #ee5f5b) !important;
+    }
+
+
+    @media screen and (max-width: 1000px) {
+        &-text h1 {
+            font-size: 32px !important;
+        }
+    }
+
+
+
+}
+
+@keyframes animateMovieinfo {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .movieinfo {
+        min-height: 600px;
+        height: auto;
+
+
+        &-thumb {
+            width: 100% !important;
+        }
+
+        .fa-film {
+            display: none;
+        }
+
+        &-text h1 {
+            font-size: 32px;
+        }
+    }
+}

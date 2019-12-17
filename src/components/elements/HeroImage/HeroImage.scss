@@ -1,0 +1,32 @@
+@import "../../../styles/abstracts/variables";
+
+.HeroImage {
+    margin-top: -12rem;
+    padding: 6rem 2rem 0.1rem 2rem;
+    background-image: linear-gradient(to right bottom, $color-primary, $color-primary);
+    clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%);
+
+    .hero {
+        width: 90%;
+        margin: auto;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba($color-white, 0.2);
+
+        .imgs {
+            border-radius: 3rem;
+            padding: 1rem 1rem;
+            background-size: 100%,
+                cover !important;
+            background-position: center,
+                center !important;
+            width: 100%;
+            height: 65rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        &__mar-top {
+            margin: 10rem auto;
+        }
+    }
+}

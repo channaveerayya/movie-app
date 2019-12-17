@@ -1,0 +1,48 @@
+.searchBar {
+    padding: 0 20%;
+    position: relative;
+    box-sizing: border-box;
+    color: #fff;
+
+    &-content {
+        max-width: 128rem;
+        width: 100%;
+        height: 5.5rem;
+        background: #353535;
+        margin: 0 auto;
+        border-radius: 4rem;
+        position: relative;
+        color: #fff;
+    }
+
+    &-fa-search {
+        position: absolute;
+        left: 2rem;
+        top: 1.8rem;
+        color: #fff;
+    }
+
+    &-input {
+        font-family: 'Abel', sans-serif;
+        font-size: 3.8rem;
+        position: relative;
+        margin: 0.8rem 0 0 6rem;
+        border: 0;
+        background: transparent;
+        height: 4rem;
+        width: 90%;
+        color: #fff;
+    }
+
+    &-input:focus {
+        outline: none;
+    }
+
+    @media screen and (max-width: 72rem) {
+        &-input {
+            margin: 0.8ren 0 0 6rem;
+            font-size: 2.8rem;
+            color: #fff;
+        }
+    }
+}
