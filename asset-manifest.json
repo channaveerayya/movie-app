@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/movie-app/static/css/main.d17b23ba.chunk.css",
+    "main.js": "/movie-app/static/js/main.c1c8dc56.chunk.js",
+    "main.js.map": "/movie-app/static/js/main.c1c8dc56.chunk.js.map",
+    "runtime-main.js": "/movie-app/static/js/runtime-main.a3064f24.js",
+    "runtime-main.js.map": "/movie-app/static/js/runtime-main.a3064f24.js.map",
+    "static/js/2.33034617.chunk.js": "/movie-app/static/js/2.33034617.chunk.js",
+    "static/js/2.33034617.chunk.js.map": "/movie-app/static/js/2.33034617.chunk.js.map",
+    "index.html": "/movie-app/index.html",
+    "precache-manifest.865242864a0699ab6e09c6b83abf7bf3.js": "/movie-app/precache-manifest.865242864a0699ab6e09c6b83abf7bf3.js",
+    "service-worker.js": "/movie-app/service-worker.js",
+    "static/css/main.d17b23ba.chunk.css.map": "/movie-app/static/css/main.d17b23ba.chunk.css.map",
+    "static/js/2.33034617.chunk.js.LICENSE": "/movie-app/static/js/2.33034617.chunk.js.LICENSE",
+    "static/media/404.mp4": "/movie-app/static/media/404.3ed8e3fa.mp4",
+    "static/media/Hero.mp4": "/movie-app/static/media/Hero.e45bac6c.mp4",
+    "static/media/Header.scss": "/movie-app/static/media/IronMan.697896c8.png",
+    "static/media/MovieThumb.scss": "/movie-app/static/media/logo.40c7bcc8.png",
+    "static/media/spider.png": "/movie-app/static/media/spider.e2656cc1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3064f24.js",
+    "static/js/2.33034617.chunk.js",
+    "static/css/main.d17b23ba.chunk.css",
+    "static/js/main.c1c8dc56.chunk.js"
+  ]
+}
