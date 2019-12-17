@@ -14,11 +14,11 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/:movieId" component={Movie} />
-          <Route component ={NotFound} />
+          <Route exact path="/movie-app" component={Home} />
+          <Route exact path="/movie-app/:movieId" component={Movie} />
+          <Route component={NotFound} />
         </Switch>
-      <Footer />
+        <Footer />
       </div>
     </BrowserRouter>
   );
